@@ -59,16 +59,37 @@
 
 // <=======================> 5-masala <====================>
 
-
 // <=======================> 6-masala <====================>
 
-let array = [2, 11, 57, 7, 41, 5, 63, 17];
-function sumTub(juft) {
-  let juftSonlar = [];
-  for (let i = 0; i < juft.length; i++) {
-      juftSonlar.push(juft[i]);
-      console.log(juft[i]);
-  }
-  return juftSonlar;
+// let array = [2, 11, 4, 7, 8, 5, 63, 17];
+
+// function sumTub(tubSon) {
+//   let tubSonlar = [];
+//   for (let i = 0; i < tubSon.length; i++) {
+//     if (tubSon[i] > 1 && tubSonmi([i])) {
+//       tubSonlar.push(tubSon[i]);
+//     }
+//   }
+//   return tubSonlar;
+// }
+
+// let counter = 0;
+// let sum = 0;
+// function tubSonniTekshirish(number) {
+//   for (let i = 0; i < array.length; i++) {
+//     if (son % i === 0) {
+//       counter++
+//     }
+//   }
+//   if (counter == 2) {
+//     sum++;
+//   }
+//   return sum; 
+// }
+// console.log(sum);
+
+let arr = [1, 2, 3, 4, 5, 8, 40, 85,];
+
+for (const value of arr) {
+  console.log(value);
 }
-console.log("Juft sonlar: " + sumJuft(array));
